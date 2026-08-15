@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 环境变量（包含密钥，不要提交）
+.env
+
+# 示例运行产生的本地数据
+02_vector_db/chroma_db/
+02_vector_db/chroma_rag_db/
+02_vector_db/faiss_index/
+05_project/chroma_chat_db/

@@ -1,0 +1,20 @@
+# LangChain 核心（langchain-community 尚未发布 1.0 稳定版，用最新预发布/0.4.x 均可）
+langchain>=1.0.0
+langchain-classic>=1.0.0
+langchain-openai>=1.0.0
+langchain-community
+langchain-text-splitters>=0.3.0
+
+# 向量数据库
+langchain-chroma
+faiss-cpu
+
+# MCP
+langchain-mcp-adapters>=0.3.0
+fastmcp>=2.0.0
+
+# Agents / LangGraph
+langgraph>=1.0.0
+
+# 工具
+python-dotenv>=1.0.0
