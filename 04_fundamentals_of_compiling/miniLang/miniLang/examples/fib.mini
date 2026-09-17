@@ -1,0 +1,11 @@
+// fib.mini —— 递归求斐波那契数列
+// 演示：函数定义/参数/返回值、if/else 分支、递归调用
+
+func fib(n) {
+    if (n <= 1) { return n; }
+    return fib(n - 1) + fib(n - 2);
+}
+
+print(fib(10));   // 55
+print(fib(15));   // 610
+print(fib(20));   // 6765

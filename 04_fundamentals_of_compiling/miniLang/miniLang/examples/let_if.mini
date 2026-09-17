@@ -1,0 +1,25 @@
+// let_if.mini —— 分支与逻辑
+// 演示：if/else、&& || !、布尔、函数返回分支结果
+
+func max(a, b) {
+    if (a > b) { return a; }
+    else { return b; }
+}
+
+func describe(x) {
+    if (x < 0) { return "负数"; }
+    else if (x == 0) { return "零"; }
+    else { return "正数"; }
+}
+
+print(max(3, 7));        // 7
+print(max(-1, -5));      // -1
+print(describe(-10));    // 负数
+print(describe(0));      // 零
+print("" || true);       // true
+
+let n = 15;
+let isEven = (n % 2) == 0;
+print(isEven);           // false
+print(!isEven);          // true
+if (isEven) { print("偶数"); } else { print("奇数"); }  // 奇数

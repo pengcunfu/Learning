@@ -1,0 +1,25 @@
+// basic.mini —— 变量、算术、while 循环
+// 演示：let 声明、赋值、+ - * / %、比较、while、print
+
+let count = 0;
+let sum = 0;
+
+while (count < 10) {
+    sum = sum + count;
+    count = count + 1;
+}
+
+print(sum);      // 0+1+...+9 = 45
+print(count);    // 10
+print(sum / count);   // 整数除法 -> 4
+print(7 % 3);         // 1
+
+let a = 2;
+let b = 3;
+print(a * b + 1);     // 7
+print(a + b * 2);     // 8 （乘优先）
+let name = "世界";
+print("你好, " + name);  // 字符串拼接
+print(true && false);    // false
+print(!false);           // true
+print(10 > 2 && 2 < 3);  // true
